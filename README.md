@@ -2,11 +2,13 @@
 
 A factory that instantiates types based on a unique identifier. Arguments of the concrete type's
 constructor can be forwarded upon registering the type.
-The factory class is provided as a single header file and there are no other dependencies besides
+The factory class is provided as a single header file with no other dependencies besides
 the c++ standard library.
 
 # Example
+
 A simple example, can also be found in `example.cpp`.
+
 ```c++
 #include "Factory.hpp"
 
